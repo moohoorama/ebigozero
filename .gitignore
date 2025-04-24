@@ -1,0 +1,68 @@
+# Go 관련
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+.glide/
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Go 모듈 캐시
+# *.sum - go.sum도 중요한 파일이므로 제외하지 않음
+# *.mod - go.mod는 중요한 파일이므로 제외하지 않음
+
+# 모바일 빌드 파일
+*.aar
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android 관련
+mobile/android/**/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/android/.DS_Store
+mobile/android/captures/
+mobile/android/.externalNativeBuild
+mobile/android/.cxx
+
+# 빌드 결과물
+bin/
+gen/
+out/
+build/
+
+# macOS 시스템 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# VSCode 설정
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 릴리스 키스토어는 포함하지 않음
+**/release-keystore.jks
+**/your-keystore.jks
+
+# 로그 파일
+*.log
